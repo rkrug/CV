@@ -14,6 +14,8 @@
 % http://www.latextemplates.com/template/plasmati-graduate-cv
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Changed by Rainer M. Krug <Rainer@krugs.de>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % -------------------------------------------------------------------
 % PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -50,6 +52,10 @@
 %% Config list
 \usepackage{enumitem}
 
+%% Define Bibliographies for references
+\usepackage[authoryear]{natbib}
+\usepackage[dot]{bibtopic}
+
 % -------------------------------------------------------------------
 % REDEFINE COMMANDS
 % -------------------------------------------------------------------
@@ -72,12 +78,12 @@
 
 \titleformat{\subsection} %command
             [leftmargin] %shape
-            {\normalsize\raggedleft} %format
+            {\normalsize\raggedleft\bf} %format
             {} %prefix number label
             {0pt} %sep
             {} %before
             [] %after
 \titlespacing{\subsection}
-            {0.15\textwidth}% max width of the title(for wrap/leftmargin shape)
+            {0.3\textwidth}% max width of the title(for wrap/leftmargin shape)
             {5pt}% vertical space before the title
             {15pt}% separation between title and text

@@ -1,0 +1,465 @@
+#+TITLE: CV Rainer M. Krug
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE:
+#+DATE: \today
+
+#+OPTIONS: toc:nil H:10 ':t
+
+:LATEX:
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+LATEX_COMPILER: pdflatex
+#+LaTeX_HEADER: \usepackage{rmk_org_cv}
+:END:
+
+
+
+* COMMENT Copy bibliographies from Mendeley Folder 
+#+begin_src sh :results output :eval never-export
+  cp ~/Documents/Mendeley/My_publications* ./
+#+end_src
+
+#+RESULTS:
+
+
+
+* Personal Details
+** Name 
+Rainer M. Krug
+** Address
+Le Petit Plessis 1B \\
+78730 Longvilliers \\
+France
+** Telephone
++33 9 53 10 27 44
+** Mobile
++33 6 85 62 59 98
+** Fax
++33 9 53 10 27 44
+** E-mail
+Rainer@krugs.de
+** Year of birth
+1968
+** Civil status
+married, one daughter
+
+
+* Qualifications
+  :PROPERTIES:
+  :CUSTOM_ID: qualifications
+  :END:
+
+** Postgraduate
+   :PROPERTIES:
+   :CUSTOM_ID: postgraduate
+   :END:
+
+** 2008 
+*PhD in Conservation Ecology*, Stellenbosch University, South Africa
+
+Thesis Title: Modelling seed dispersal in restoration and biological
+invasion.
+
+** 1997
+*MSc Conservation Biology*, University of Cape Town, South Africa
+
+Thesis topic: The Genetic Diversity in a Founded Population of the
+African buffalo (/Syncerus caffer/): an example of an Artificial
+Bottleneck.
+
+** 1995 
+*Diplom (MSc equivalent) in Physics*, Philips-Universität Marburg, Germany
+
+Thesis Title: Der Einfluss von Habitat Heterogenität auf die mittlere
+Überlebensdauer von Populationen (The influence of habitat heterogeneity
+on the mean survival time of populations)\\
+Subjects for oral examination: Experimental Physics, Theoretical
+Physics, Ecological Modelling, Biology
+
+** Undergraduate
+   :PROPERTIES:
+   :CUSTOM_ID: undergraduate
+   :END:
+
+
+** 1992
+*Vor-Diplom (BSc equivalent) in physics*, Philips-Universität Marburg, Germany
+
+Subjects for oral examination: Experimental Physics, Theoretical
+Physics, Mathematics, Chemistry.
+
+* TODO Research
+  :PROPERTIES:
+  :CUSTOM_ID: research
+  :END:
+** 08/2015 -- 09/2015 
+TODO Analysis of Wind Speed Profiles
+** 11/2014 --   
+TODO Forest Productivity I was involved in a project assessing the
+** 09/2013 -- 11/2013
+TODO KZN
+** 2010 -- \protect\phantom{2011}
+*DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University*
+
+Spatial and temporal dynamics of biocontrol agents and their target
+species on a landscape scale and implications for alien invasive species
+management .
+
+The project investigates the temporal dynamics and the spread of
+biocontrol agents and their host plants on a landscape scale using a GIS
+based ecological simulation model, as well a non-spatial approach. This
+study will enable us to understand diverse aspects of the interaction
+between biocontrol agent and host plant and how these interactions
+influence the effectiveness of biocontrol agents in halting the spread
+of invasive species. This understanding enables us to devise release-
+and relocation-strategies for the biocontrol agent(s) that minimise the
+effort involved and at the same time maximises the impact of the
+biocontrol agent. Results arising from the project will be used to
+inform implementing agencies and will be communicated in the form of
+guidelines and workshops.
+
+** 2008 -- 2011
+*DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University*
+
+Spatial as well as non-spatial and temporal dynamics of selected
+biocontrol agents and their hosts. The study addresses the dynamics
+resulting from a single biocontrol agent based on the dispersal ability
+of the agent, as well as the dynamics resulting from the introduction of
+multiple bicontrol agents.
+
+Modelling the spread of alien species in the Western Cape with the aim
+of optimising the alien management strategies. This project included
+aspects ranging from using an Analytical Hierarchical Process to capture
+and quantify the subjective decision making process of prioritising,
+translating this into a spatial simulation model, developing a
+spatial-temporal simulation model which included fire, alien plant
+management, different dispersal vectors (wind, water, birds) and to use
+high performance computing infrastructure (cluster) to run the
+simulations and to develop a package for R to compare the different
+resulting prioritisation maps spatially.
+
+Investigating the spread of invasive species under different climate
+change scenarios. This involved developing the spread models (population
+based as well as probabilistic) which included climatic suitability maps
+to project the observed distribution under different climate change
+scenarios to identify risk areas and to assess the invasive potential of
+these species.
+
+Assessing the viability of pine plantations under different (and
+changing) fire regimes using a basic modelling approach.
+
+** 2007 -- 2008
+*Plant Conservation Unit, University of Cape Town*
+
+Analyzing the population dynamics of /Aloe pillansii/, a tree aloe, with
+focus on the recruitment events and their reconstruction.
+
+** 2000 -- 2007
+*Conservation Ecology and Entomology department, Stellenbosch University*
+
+Modelling the role of seed dispersal in restoration and biological
+invasion, and investigating factors influencing the spread of a species.
+I have developed rule-based simulation models based on data collected in
+the field and experts estimates to predict the rate of spread of a
+species depending on dispersal ability, competition experienced in
+establishment, and the effects of biocontrol agents.
+
+** 1996 -- 1997
+*Percy FitzPatrick Institute of African Ornithology, University of Cape Town*
+
+Investigated the genetic heterogeneity of three populations of African
+Buffalo using microsatellites
+
+GIS based conservation planning exercise in which species presence
+absence data was used to identify areas most relevant for conservation.
+
+Participated in analysis of the financial value of the Good Hope
+Environmental Education Centre. It included, among others,
+questionnaires to tourists and schools concerning their willingness of
+paying to visit the centre.
+
+** 1995 -- 1995
+*Department of Physics, Philipps-Universität Marburg*
+Developed simulation model focussing on the effect of habitat use on the
+mean survival time of populations. This research was conducted in
+co-operation with a biologist who was involved in the planning of the
+project and in the formulation of the questions. Building a simulation
+model of the population investigated provided important insights in the
+importance of different habitat types for the survival and conservation
+of the species.
+
+* Work experience
+  :PROPERTIES:
+  :CUSTOM_ID: work-experience
+  :END:
+** 08/2011 -- \nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}\nbsp{}
+Research Associate at the NRF-DST Centre of Excellence for Invasion
+Biology.
+
+** 06/2008 -- 06/2008
+Postdoctoral Research Fellow at the NRF-DST Centre of Excellence for
+Invasion Biology, hosted by Prof. Dave Richardson.
+
+** 06/2007 -- 06/2008
+Postdoctoral Research Fellow at the Plant Conservation Unit, University
+of Cape Town, hosted by Prof. Timm Hoffman, and at the DST-NRF Centre of
+Excellence for Invasion Biology, Stellenbosch University, hosted by
+Prof. Dave Richardson.
+
+* Additional skills
+  :PROPERTIES:
+  :CUSTOM_ID: additional-skills
+  :END:
+
+** Computer
+   :PROPERTIES:
+   :CUSTOM_ID: computer
+   :END:
+
+*Operating System* Expert user and basic Linux administrator; advanced
+Windows user
+
+*Programming Languages* Extensive experience in programming in R,
+Delphi / Pascal; basic understanding and usage of C
+
+*Programs* Extensive experience in R, GRASS; Office programs; LyX /
+LaTeX for writing; basic experience of Arc-GIS
+
+** Language
+   :PROPERTIES:
+   :CUSTOM_ID: language
+   :END:
+
+*German* home language
+
+*English* reading, writing and speaking fluent
+
+*French* reading, writing and speaking fair
+
+* Grants
+   :PROPERTIES:
+   :CUSTOM_ID: grants
+   :END:
+** 1996 -- 1997
+Deutscher Akademischer Austauschdienst (DAAD: German Academic Exchange
+Service) grant to attend MSc in Conservation Biology course at UCT.
+
+** 1999 -- 2000
+Deutscher Akademischer Austauschdienst (DAAD: German Academic Exchange
+Service) grant to conduct fieldwork for PhD at Gobabeb, Namibia.
+
+** 2009 -- 2010
+NRF Freestanding Postdoctoral Fellowship awarded
+
+* TODO Areas of interest and expertise
+  :PROPERTIES:
+  :CUSTOM_ID: areas-of-interest-and-expertise
+  :END:
+
+I am interested in theoretical ecology, particularly ecological
+modelling and its integration and interaction with field experiments and
+data. My main interest lies in the field of processes and pattern
+description and analysis which processes cause pattern and how pattern
+influence the processes. These pattern and processes can range from
+population to ecosystem levels.
+
+Essential is for me the close integration of theoretical models and
+field work and field data. Models can help to plan experiments,
+determine sample sizes needed, simplifying experiments. Field
+experiments can enhance and simplify models and validate results
+obtained in ecosystem models. These simplified but valid models can be
+used to address conservation related questions.
+
+More specifically, I am interested in the functioning of ecosystems and
+the dynamics of populations and communities which processes and
+disturbances are essential in maintaining the dynamics? How do they
+react to changes in e.g. the frequency or intensity of these processes?
+Which processes and disturbances are essential in maintaining certain
+pattern in the system? Which role does dispersal play in the maintenance
+of these systems?
+
+To answer these questions, it is important to combine field work with
+ecological simulation models of different complexity in all stages of
+the project from the planning of the experiments to the analysis of the
+field data and the identification of important parameter and processes.
+
+My PhD focused on the role of seed dispersal in restoration and
+biological invasion, the effects of alien vegetation on the
+establishment of indigenous species and the effects of biocontrol agents
+on the spread of invasive species. This involved developing rule-based
+simulation models reflecting the seed dispersal and plant distributions
+observed in the field, and making predictions of the spread of species
+under different scenarios. The model was written in Delphi.
+
+A recent research focus was on population dynamics and reconstructing
+the age structure of populations of /Aloe pillansii/, spatial dynamics
+of alien invasive plants and the interaction with different management
+strategies, including biocontrol. My latest projects (spatial and
+temporal dynamics) combine the field of ecological modelling with
+spatial statistics, as the development of simulation models as well as
+the comparison of different spatial pattern is essential to them.
+
+To link management into the models developed to be able to provide
+applicable feedback to managers, is an important aspect for me, as well
+as the close co-operation with managers during all phases of the
+project. This approach, coupled with a close co-operation with field
+biologists, makes it possible, that the results of the projects are not
+only scientifically interesting, but also have an impact on the
+management practises.
+
+In the field of statistics, I am interested in resampling methods and I
+employed a bootstrapping approach in the analysis of seed dispersal
+data. Data arising from the simulations are all analysed in the
+statistical package R, using a range of different functions and modules.
+I have written numerous scripts in R to aid with data analysis and
+presentation. I also wrote a package for R implementing the Earth Movers
+Distance based on an implementation in C++ by Haibin Ling and Kazunori
+Okada.
+
+All my simulation models and analysis use only Open Source software.
+This includes Linux as the operating system of choice, R for analysis
+and writing my simulations, GRASS and QGIS as GIS programs, which I also
+use in my simulations (GRASS). This approach of only using Open Source
+software, provides the flexibility to develop the simulation models and
+analysis protocols, distribute them freely and to enable others
+(scientists as well as implementing agencies like nature conservation
+agencies) to use the code without limitations and without having to
+purchased specific software.
+
+* Teaching Experience
+  :PROPERTIES:
+  :CUSTOM_ID: teaching-experience
+  :END:
+
+From 1997 -- 2007, I taught the module "Introduction to True Basic", a
+one-week introductory course to the ecological modelling module as part
+of the MSc Conservation Biology at the University of Cape Town. For the
+same course, I assisted in lecturing the module "Ecological Modelling"
+for three years.
+
+In 2004, I taught a seven week course including assignments on models
+in ecology as part of the BWE 424 course in the Department of
+Conservation Ecology, as well as additional lectures on models in
+ecology, and I regularly assisted in teaching Leslie Matrix modelling
+in a module on sustainable harvesting.
+
+In addition, I taught six practicals for the Population and
+Conservation Ecology undergraduate course at the Stellenbosch
+University.
+
+During my PhD I co-supervised an MSc student who investigated seed
+dispersal in Renosterveld by conducting seed trapping experiments. 
+
+In 2007, 2008 and 2009 I taught R introductory R block courses to
+students from postgraduate to postdoctoral level (between 2 and 3 days
+each).
+
+In 2008 and 2009 I was involved in conducting the Tygerberg Olympiad,
+a project for grade nine to eleven learners, in which they are taught
+aspects ranging from ecological, legal, archeological aspects
+concerning the region (Tygerberg). At the end, they are expected to
+give a short presentation and prices are handed out.
+
+* Other Experience
+  :PROPERTIES:
+  :CUSTOM_ID: other-experience
+  :END:
+
+During my time at the desert research station Gobabeb (1997 2000), I was
+involved in conducting participatory workshops with the local
+communities on fog harvesting and sustainable use of the nara fruit.
+
+In addition to the standard software, I do have experience in
+different GIS applications (ArcGIS, ArcView, GRASS, QGIS), R
+(extensive usage for analysis and programming of simulations, basic
+development of packages), the programming language Delphi (used as the
+modelling language for my PhD) and Turbo Pascal (used for my MSc in
+Physics), Open Office. I have extensive experience in Linux and I am
+strongly in favour of using Open Source instead of proprietary
+software.
+
+
+* Publications
+  :PROPERTIES:
+  :CUSTOM_ID: publications
+  :END:
+** Peer-reviewed Journals
+   :PROPERTIES:
+   :CUSTOM_ID: peer-reviewed-journals
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-PeerReviewedArticles}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** Book Chapters
+   :PROPERTIES:
+   :CUSTOM_ID: book-chapters
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-InBook}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** Conference proceedings
+   :PROPERTIES:
+   :CUSTOM_ID: conference-proceedings
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-Proceedings}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** COMMENT Conference oral presentations (first author only)
+   :PROPERTIES:
+   :CUSTOM_ID: conference-oral-presentations-first-author-only
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-Presentations}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** COMMENT Conference poster presentations (first author only)
+   :PROPERTIES:
+   :CUSTOM_ID: conference-poster-presentations-first-author-only
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-Posters}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** Software Packages
+   :PROPERTIES:
+   :CUSTOM_ID: software-packages
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-Software}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
+** Guest lectures
+   :PROPERTIES:
+   :CUSTOM_ID: guest-lectures
+   :END:
+#+BEGIN_EXPORT latex
+\begin{btSect}[elsarticle-harv]{My_publications-GuestLectures}
+\btPrintAll
+\end{btSect}
+#+END_EXPORT
+
+
