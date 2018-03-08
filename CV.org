@@ -47,15 +47,13 @@
 ** Name 
 Rainer M. Krug
 ** Address
-Le Petit Plessis 1B \\
-78730 Longvilliers \\
-France
+Soorhaldenstr. 12 \\
+8308 Illnau \\
+Switzerland
 ** Telephone
-+33 9 53 10 27 44
++41 78 630 66 57
 ** Mobile
-+33 6 85 62 59 98
-** Fax
-+33 9 53 10 27 44
++41 52 534 65 13
 ** E-mail
 Rainer@krugs.de
 ** Date of birth
@@ -111,8 +109,9 @@ Physics, Mathematics, Chemistry.
   :PROPERTIES:
   :CUSTOM_ID: work-experience
   :END:
-** 10/2016 -- 12/2016 
-*Laboratoire Ecologie, Systematique et Evolution, Paris Sud* 
+
+** 03/2017 -- present 
+*Department of Evolutionary Biology and Environmental Studies, University Zürich*
 
 Researcher
 # Paris Sud, TO ENTER
@@ -195,8 +194,11 @@ simulation models available (as far as funder conditions allow this).
   :PROPERTIES:
   :CUSTOM_ID: research
   :END:
+** 09/2017 -- present
+Predictions in Chaotic systems
+
 ** 10/2016 -- present
-Literature Analysis of Scenarios and Models on Global scale (*Laboratoire Ecologie, Systematique et Evolution, Paris Sud*).
+Literature Analysis of Scenarios and Models on Global scale (*IPPBES Global Assessment Chapter 4*).
 
 ** 08/2015 -- 09/2015
 Analyze measured vertical wind profiles to improve the performance of
