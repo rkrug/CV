@@ -28,18 +28,9 @@
 :END:
 
 #+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
+#+EXCLUDE_TAGS: noexport long
 
 #+CREATOR: Emacs 25.1.1 (Org mode 8.3.6)
-
-
-
-* COMMENT Copy bibliographies from Mendeley Folder 
-#+begin_src sh :results output :eval never-export
-  cp ~/Documents/Mendeley/My_publications* ./
-#+end_src
-
-#+RESULTS:
 
 
 
@@ -51,11 +42,12 @@ Soorhaldenstr. 12 \\
 8308 Illnau \\
 Switzerland
 ** Telephone
-+41 78 630 66 57
-** Mobile
 +41 52 534 65 13
+** Mobile
++41 78 630 66 57
 ** E-mail
 Rainer@krugs.de
+Rainer.Krug@uzh.ch
 ** Date of birth
 12 April 1968
 ** Civil status
@@ -151,12 +143,24 @@ Postdoctoral Research Fellow, hosted by Prof. Timm Hoffman.
 
 * Areas of Interest and expertise
 ** Keywords                                                  :ignoreheading:
-Ecological Modelling; statistical computing; combined modelling and
+data and metadata management; open source tools; ecological modelling; statistical computing; combined modelling and
 experimental approaches; invasive species management; spatial pattern
-analysis; decision support; open source tools
+analysis; decision support
 
 ** Details                                                   :ignoreheading:
-My research interest and focus is on 1) spatial modeling and analysis
+My current focus of research is in the field of data management, metadata 
+management, workflows and data archival. Recent work included development
+of a framework for continuous data analysis and archival (ongoing but 
+momentarily on hold); development of data management guidelines for our working group (ongoing),
+development of a domain specific metadata scheme to make entering and useful 
+metadata as easy as possible for the researcher while at the same providing 
+all the information needed for a useful re-use of the archived data; 
+management of the large scale literature review of the IPBES Global 
+Assessment Chapter 4, including data collection, quality control, analysis,
+graphing and archival (finalizing) as well as drafting of a Data Management 
+Policy for IPBES.
+
+My previous research interest and focus is on 1) spatial modeling and analysis
 of pattern and processes and their integration with field experiments
 and observations, ranging from population (local) to ecosystem
 (regional) scale, 2) the impact of change (climate change, human
@@ -189,16 +193,20 @@ analysis and generation of graphs and to make these as well as the
 simulation models available (as far as funder conditions allow this).
 
 
-
-* Research Projects
+* Research Projects                                                    :long:
   :PROPERTIES:
   :CUSTOM_ID: research
   :END:
-** 09/2017 -- present
+** 06/2018 -- present
+Developing of a data management strategy for our research group and development of tools to facilitate 
+the provision and improve the quality of metadata. Also developing of data workflows to make the workflow 
+from data generation to archival as smooth and reproducible as possible.
+
+** 09/2017 -- 06/2018
 Predictions in Chaotic systems
 
 ** 10/2016 -- present
-Literature Analysis of Scenarios and Models on Global scale (*IPPBES Global Assessment Chapter 4*).
+Management of the Literature Analysis (*IPPBES Global Assessment Chapter 4*) and the generated data.
 
 ** 08/2015 -- 09/2015
 Analyze measured vertical wind profiles to improve the performance of
@@ -291,6 +299,24 @@ Buffalo using microsatellites (*Percy FitzPatrick Institute of African Ornitholo
 Development of an individual based simulation model focussing on the effect of habitat
 use on the mean survival time of populations (*Department of Physics,
 Philipps-Universität Marburg*).
+
+
+* Research Projects
+  :PROPERTIES:
+  :CUSTOM_ID: research
+  :END:
+
+- Development of a data management strategy for our research group and of tools to facilitate the provision and
+  improve the quality of metadata. Also developing of data workflows to make the workflow from data generation to archival as smooth and reproducible as possible.
+- Predictions in Chaotic systems
+- Management of the Literature Analysis (*IPPBES Global Assessment Chapter 4*) and the generated data for archiving.
+- Analyze measured vertical wind profiles to improve the performance of a forest growth model (CASTANEA) in regards to energy balance
+- modelling temporal and spatial dynamics of a range of different different alien species, alien control agents and 
+  management strategies
+- Optimising alien invasive plant management through modelling of temportal and spatial modelling
+- Modelling the role of seed dispersal in restoration and biological invasion
+
+
 * Additional skills
   :PROPERTIES:
   :CUSTOM_ID: additional-skills
@@ -336,7 +362,7 @@ Service) grant to conduct fieldwork for PhD at Gobabeb, Namibia.
 Deutscher Akademischer Austauschdienst (DAAD: German Academic Exchange
 Service) grant to attend MSc in Conservation Biology course at UCT.
 
-* Teaching Experience
+* Teaching Experience                                              :long:
   :PROPERTIES:
   :CUSTOM_ID: teaching-experience
   :END:
@@ -378,7 +404,7 @@ ecological, legal, archeological aspects concerning the region
 (Tygerberg). At the end, they are expected to give a short
 presentation and prices are handed out.
 
-* Other Experience
+* Other Experience                                                 :long:
   :PROPERTIES:
   :CUSTOM_ID: other-experience
   :END:
@@ -402,7 +428,7 @@ communities on fog harvesting and sustainable use of the nara fruit.
    :CUSTOM_ID: peer-reviewed-journals
    :END:
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-PeerReviewedArticles}
+\begin{btSect}[elsarticle-harv]{MP_PeerReviewed}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
@@ -413,7 +439,7 @@ communities on fog harvesting and sustainable use of the nara fruit.
    :CUSTOM_ID: book-chapters
    :END:
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-InBook}
+\begin{btSect}[elsarticle-harv]{MP_InBook}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
@@ -424,7 +450,7 @@ communities on fog harvesting and sustainable use of the nara fruit.
    :CUSTOM_ID: conference-proceedings
    :END:
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-Proceedings}
+\begin{btSect}[elsarticle-harv]{MP_Proceedings}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
@@ -436,30 +462,17 @@ communities on fog harvesting and sustainable use of the nara fruit.
    :END:
 Only first author, except invited keynote presentations
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-Presentations}
+\begin{btSect}[elsarticle-harv]{MP_Presentations}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
-
-
-** COMMENT Conference poster presentations
-First Author only
-   :PROPERTIES:
-   :CUSTOM_ID: conference-poster-presentations-first-author-only
-   :END:
-#+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-Posters}
-\btPrintAll
-\end{btSect}
-#+END_EXPORT
-
 
 ** Software Packages
    :PROPERTIES:
    :CUSTOM_ID: software-packages
    :END:
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-Software}
+\begin{btSect}[elsarticle-harv]{MP_Software}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
@@ -470,7 +483,7 @@ First Author only
    :CUSTOM_ID: guest-lectures
    :END:
 #+BEGIN_EXPORT latex
-\begin{btSect}[elsarticle-harv]{My_publications-GuestLectures}
+\begin{btSect}[elsarticle-harv]{MP_GuestLecture}
 \btPrintAll
 \end{btSect}
 #+END_EXPORT
