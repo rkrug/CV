@@ -6,4 +6,4 @@ preview: pdf
 	
 clean:
 	latexmk -C ./CV.tex
-	rm -r ./*.aux ./*.bbl ./CV.pdf
+	rm -r ./*.aux ./*.bbl ./CV.pdf ./CV.fdb_latexmk
