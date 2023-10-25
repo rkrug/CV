@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage{xcolor}
 
 \usepackage{rmk_org_cv}
 \author{Rainer M. Krug}
@@ -47,26 +48,32 @@ Switzerland
 
 \href{https://orcid.org/0000-0002-7490-0066}{0000-0002-7490-0066}
 
-\subsection{Telephone}
-
-+41 52 534 65 13
-
 \subsection{Mobile}
 
 +41 78 630 66 57
 
 \subsection{E-mail}
 
-Rainer@krugs.de
+Rainer.Krug@ieu.uzh.ch (work)
 
-Rainer.Krug@ieu.uzh.ch
+Rainer@krugs.de (private)
 
 \subsection{Date of birth}
 
 12 April 1968
+
 \subsection{Civil status}
 
 married, one daughter
+
+\section{Languages}
+
+\textbf{German} native language
+
+\textbf{English} reading, writing and speaking fluent
+
+\textbf{French} reading, writing and speaking fair
+
 
 \section{Qualifications}
 
@@ -110,210 +117,367 @@ Subjects for oral examination: Experimental Physics, Theoretical Physics, Mathem
 
 \subsection{03/2017 -- present}
 
-\textbf{Department of Evolutionary Biology and Environmental Studies, University Zürich}
+\textbf{Researcher / Research Assistant}
 
-Researcher
+Department of Evolutionary Biology and Environmental Studies, University Zürich
 
 \subsection{08/2015 -- 09/2015}
 
-\textbf{Laboratoire Ecologie, Systematique et Evolution, Paris Sud} 
+\textbf{Postdoctoral Researcher} 
 
-Postdoctoral Researcher
+Laboratoire Ecologie, Systematique et Evolution, Paris Sud
 
 \subsection{11/2014 -- 12/2014}
 
-\textbf{Laboratoire Ecologie, Systematique et Evolution, Paris Sud} 
+\textbf{Postdoctoral Researcher} 
 
-Postdoctoral Researcher
+Laboratoire Ecologie, Systematique et Evolution, Paris Sud
 
 \subsection{09/2013 -- 11/2013}
 
-\textbf{Laboratoire Ecologie, Systematique et Evolution, Paris Sud}
+\textbf{Postdoctoral Researcher}
 
-Postdoctoral Researcher
+Laboratoire Ecologie, Systematique et Evolution, Paris Sud
 
 \subsection{08/2011 -- 12/2016}
 
-\textbf{DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University}
+\textbf{Research Associate}
 
-Research Associate
+DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University
+
+\subsection{2009 -- 2015 }
+
+\textbf{Child care ranging from 50\% - 100\%}
+
 
 \subsection{06/2008 -- 06/2008}
 
-\textbf{DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University}
+\textbf{Postdoctoral Research Fellow, hosted by Prof. Dave Richardson.}
 
-Postdoctoral Research Fellow, hosted by Prof. Dave Richardson.
+DST-NRF Centre of Excellence for Invasion Biology, Stellenbosch University
 
 \subsection{06/2007 -- 06/2008}
 
-\textbf{Plant Conservation Unit, University of Cape Town} 
+\textbf{Postdoctoral Research Fellow, hosted by Prof. Timm Hoffman.} 
 
-Postdoctoral Research Fellow, hosted by Prof. Timm Hoffman.
+Plant Conservation Unit, University of Cape Town
+
+\subsection{1999}
+\textbf{Accident induced time off}
+One year in Germany due to hospital visits and cancelation of started and financed PhD.
+
 
 \section{Other Positions / Roles}
+
+\subsection{2022}
+Invited Academic Guest Editor for paper in the field of reporoducible methods
+
+
+\subsection{2021 -- present}
+Fellow of the Center for Reproducible Science (CRS) at UZH
+
+\subsection{2021 -- present}
+
+Co-Chair of the \href{https://intgovforum.org/en/content/dynamic-coalition-on-environment-dce}{Dynamic Coalition on Environment (DCE)} of the \href{https://intgovforum.org/en}{Internet Governance Forum (IGF)}
+
+\subsection{2021}
+
+Member of \href{https://www.intgovforum.org/en/content/policy-network-on-environment-pne}{Policy Network on Environment (PNE)} , Intersessional workstream of the IGF
+
+\subsection{2019 -- present}
+
+Elected Expert Member of the \href{https://ipbes.net/}{Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES)} \href{https://ipbes.net/knowledge-data}{Task Force on Knowledge and Data}, nominated by Switzerland
 
 \subsection{2017 -- 2019}
 
 IPBES Chapter Scientist of the chapter 4 of the IPBES Global Assessment
 
-\subsection{2019 -- present}
 
-Expert Member of the \textbf{IPBES Knowledge and Data Task Force}, nominated by Switzerland. 
 
-\subsection{2021}
+\section{Research Projects}
 
-Member of Policy Network on Environment (PNE), Intersessional workstream of
-	the Internet Governance Forum (IGF)
+\begin{itemize}[leftmargin=1.1in]
+
+\item Development of an R package for running a simulation in a
+	transparent and reproducible way, including the running of the
+	analysis, saving and reloading of parameter and results as well as
+	support for analysis and graphing of the results using RMarkdown. (IEU UZH)
+
+\item Development, implementation and maintenance of an automatic data
+	pre-processing and extraction pipeline to extract Research Ready
+	(data which will be used in forecasting in this case) data from
+	regularly measured data and movies, recorded in open (but
+	difficult to use) and proprietary formats. The data is converted in
+	open formates and saved as Archive Ready (i.e. FAIR) data and further
+	processed into Research Ready data which, in the final step,  is
+	further analysed by other researchers in the team. All elements of
+	the pipeline are implemented in a completely transparent and
+	reproducible way, written in R (several R packages to
+	compartmentalise the pipeline), which is running in a docker
+	container and controlled using makefiles and bash scripts. The docker
+	container runs on a S3IT Science Cloud instance which is also
+	accessible via a Samba server. (IEU UZH)
+
+\item Development of an approach to develop domain specific metadata
+	schemes, implemented in an accompanying R packege (dmdScheme). This
+	approach was used to develop a domain specific metadata scheme for
+	the experiments (aquatic microbial microcosm experiments), which is
+	implemented in the package emeScheme and accompanying metadata scheme
+	definition. The resulting emeScheme is used for the ongoing
+	experiments in our group as well as retrospectively to make the data
+	availabe on public repositories. (IEU UZH)
+
+\item Development of a data management strategy for our research group
+	and of tools to facilitate the provision and improve the quality of
+	metadata. (IEU UZH)
+
+%% \item Predictions in Chaotic systems
+
+\item Management of the large scale Literature Analysis for
+	(\textbf{IPPBES Global Assessment Chapter 4}) (more than 20 authors,
+	> 5000 initial papers and a complex questionaire in excel sheet to
+	collect the results from the review) and the generated data and from
+	the Excel Database in a reproducible way for archiving as well as
+	graphing of the results. (Laboratoire Ecologie, Systematique et Evolution, Paris
+	Sud and IEU UZH)
+
+\item Analysis of measured vertical wind profiles to improve the
+	performance of a forest growth model (CASTANEA) in regards to energy
+	balance (Laboratoire Ecologie, Systematique et Evolution, Paris
+	Sud)
+
+\item Modelling temporal and spatial dynamics of a range of different
+	different alien species, alien control agents and management
+	strategies (Centre for Invasion Biology, Stellenbosch
+	University)
+
+\item Optimising alien invasive plant management through modelling of
+	temporal and spatial modelling (Centre for Invasion Biology,
+	Stellenbosch University)
+
+\item Modelling the role of seed dispersal in restoration and
+	biological invasion (Department of Conservation Ecology and
+	Entomology, Stellenbosh University)
+
+\end{itemize}
+
+\section{Reproducibility and Data Management}
+\begin{itemize}[leftmargin=1.1in]
+
+\item As \textbf{elected expert of the IPBES Knowledge and Data Task
+	Force} I led the development of the Data and Knowledge Management
+	Policy of IPBES. This is based based on FAIR and CARE data
+	managememnt principles, which requires IPBES to follow reproducible
+	workflows in all research related activities. The policy further
+	requires IPBES to provide support to implement the policy to its
+	experts which is mainly done by the Data TSU (Technical Support
+	Unit). In addition, I am also working with the tsu on the develop of
+	teaching and information material as well as technical guidelines to
+	implement at all stages of the research process reproducible and open
+	workflows. One direction the Task Force and the TSU are working
+	towards is to use dynamic reports (on demand as well as in real-tim
+	updated) in IPBES.
+
+\item Between 2015 and 2017 I was a \textbf{chapter scientist} for the
+	Global Assessment, Chapter 4. Here, I managed the large scale
+	literature review for the IPBES Global Assessment Chapter 4,
+	including data collection, quality control, analysis, graphing and
+	archival (finalising).
+
+\item In 2021 I was active in the  in the \textbf{Policy Network on
+	Environment} (PNE) (Internet Governance Forum) where I successfully
+	promoted the FAIR use of data (Findable, Accessible, Interoperable
+	and Reusable) as well as the CARE principles (Collective benefits,
+	Authority of control, Responsibility and Ethics) to be included in
+	the recommendations. Caused by the overall positive acceptance of the
+	report, it was decided to continue the work in a new Dynamic
+	Coalition, the DCE, of which I became a co-chair.
+
+\item After 2022, as the \textbf{co-chair of the DCE}, I am
+	promoting the closer integration of environmental, particularly
+	biodiversity, considerations and internet governance related
+	questions. Combining this aim with my experience in the IPBES
+	Knowledge and Data Task Force, particularly the role of FAIR and CARE
+	data management, the charta of the DCE includes these open science
+	principles as a cornerstone.
+
+\end{itemize}
+
+
+\section{Teaching Experience}
+
+\begin{itemize}[leftmargin=1.1in]
+
+\item \textbf{Computing consultant} in BIO144 (Data Analysis in
+	Biology) at UZH (2021 - 2023)
+
+\item Development of \textbf{video tutorials} within IPBES regarding
+	the data management policy and its implementation for
+	interdisciplinary experts from diverse scientific backgrounds
+
+\item Development of \textbf{technical guidelines} for the
+	implementation of the data management policy in IPBES for
+	interdisciplinary experts from diverse scientific backgrounds
+
+\item teaching a week long \textbf{block course} Introduction to True
+	Basic at the University of Cape Town for five years. Students were
+	from different scientific backgrounds and from diverse universities
+	attending Conservation Biology Masters course.
+
+
+\end{itemize}
 
 \section{Areas of Interest and expertise}
 
 \subsection{Keywords}
 
-open source tools; data and metadata management; ecological modelling;
-	statistical computing; combined modelling and experimental approaches;
-	invasive species management; spatial pattern analysis; decision support
+    open science; FAIR; CARE; reproducibility; 
+    open source tools; 
+    data and metadata management; 
+    
+    combined modelling and experimental approaches;
+    ecological modelling; statistical computing; 
+	  invasive species management; biodiversity research;
 
 \subsection{Research}
 
 
-My current focus of work is in the field of data management, metadata
-	management, workflows and data archival. Recent activities include
-	development of a framework for continuous data analysis and archival
-	which is used by an ongoing project (moved from development into usage
-	and maintenance stage); development of data management guidelines for our
-	working group (ongoing), development of a domain specific metadata scheme
-	to make entering and useful metadata as easy as possible for the
-	researcher while at the same providing all the information needed for a
-	useful re-use of the archived data; management of the large scale
-	literature review of the IPBES Global Assessment Chapter 4, including
-	data collection, quality control, analysis, graphing and archival
-	(finalising).
+My current focus of work at UZH is in the field of data management,
+	metadata management, reproducible workflows and data archival,
+	embedded in the principles of open science, FAIR and reproducibility.
+	This includes the development of a framework for continuous data
+	analysis and preparation for archival which is used by an ongoing
+	project, development of data management guidelines for our research
+	group, development of a domain specific metadata scheme to make
+	entering and useful metadata as easy as possible for the researcher
+	while at the same providing all the information needed for a useful
+	re-use of the archived data;
 
-My previous research interest and focus is on 1) spatial modelling and
-	analysis of pattern and processes and their integration with field
-	experiments and observations, ranging from population (local) to
-	ecosystem (regional) scale, 2) the impact of change (climate change,
-	human impacts, alien spread, \ldots{}) and conscious human actions
-	(management) on these pattern and ultimately on the function of these
-	ecosystems and ecosystem services, and 3) the use of models in decision
-	support of the management of natural resources.
+    
 
-During my research career I have developed and used different types of
-	models, ranging from individual based models, over hybrid models using
+%% My previous research interest and focus is on 1) spatial modelling and
+%%	analysis of pattern and processes and their integration with field
+%%	experiments and observations, ranging from population (local) to
+%%	ecosystem (regional) scale, 2) the impact of change (climate change,
+%%	human impacts, alien spread, \ldots{}) and conscious human actions
+%%	(management) on these pattern and ultimately on the function of these
+%%	ecosystems and ecosystem services, and 3) the use of models in decision
+%%	support of the management of natural resources.
+
+Throughout my research career I have developed and used different types of
+	models, ranging from individual based models, hybrid models using
 	individual based approaches together with grid based elements, to pure
 	grid based models. The systems studied ranged from populations and
 	communities on the local scale to community dynamics (e.g. grassland -
 	shrubland dynamics, two biocontrol species one invasive species system,
 	spread of three alien invasive species) on the local scale and spread
 	simulations of individual species on the national scale under different
-	climate change scenarios. Most of my research included different
-	management scenarios in the form of alien plant management actions.
+	climate change or management actions.
 
-All the simulation and analysis tools I use (and nearly all of the ones I
-	used) are Open Source software (R, GRASS GIS, QGIS). This provides the
-	flexibility to develop the simulation models and analysis protocols and
-	pipelines without additional costs, distribute them freely and to enable
-	others (scientists as well as other implementing agencies and usrs) to
-	use and evaluate the code without limitations and without having to
-	purchased specific software, i.e. reproducible research. Reproducible
-	research includes for me to use scripts in analysis and generation of
-	graphs and to make these as well as the simulation models available (as
-	far as funder conditions allow this).
+All the programming, simulation and analysis tools I use are Open
+	Source software (R, GRASS GIS, QGIS). This e.g. provides provides me
+	with the flexibility to develop the simulation models and analysis
+	protocols and pipelines without additional costs, distribute them
+	freely and to enable others (scientists as well as other implementing
+	agencies and users) to use, evaluate, and develop the code further
+	without limitations and without having to purchased specific
+	software. 
+	
+Rmarkdown (lately quarto) is my tool of choice to document and run data
+	preparation (e.g. conversion and filtering of outliers / fault
+	results) and analysis / graphing of data. This 'Docs as Code' type of
+	document enables one to focus on the documentation and what one wants
+	to do and embeds the code as well as the results in the final document.
 
-\subsection{IT}
+I use the R package structure as the template for projects. This takes
+	the reproducibility even one step further, as dependencies can be
+	communicated clearly (and are enforced during installation) and
+	thinking in 'functions' instead of long scripts is encouraged.
+	Consequently I maintain number of R packages for internal as well as
+	public usage (see e.g. my
+	\href{https://rkrug.r-universe.dev/builds}{R-Universe repository}).
 
-During my research activities I obtained a broad expertise in programming in
-	different languages, linking these through e.g. scripting to into
-	automated process and data work flows, setting up and usage of virtual
-	computing platforms (most recently S3IT Science Cloud) including docker,
-	and virtual machines, setting up and maintenance of small MySQL and
-	sqlite databases as well as SAMBA servers and trouble shooting of a wide
-	variety of software as well as hardware problems. In addition, I maintain
-	number of R packages for internal as well as public usage.
-
-Since I started in Zürich, a substantial part of my work involved research
-	support, ranging from informal discussion on how workflows and scripts
-	could be improved in regards to speed and data management /
-	reproducibility aspects, designing and writing R packages to simplify or
-	automate workflows up to designing workflows which use different
-	computing platforms to the actual management of research data to finally
-	submitting it to Zenodo for long term preservation.
-
-During my career I was using different operating systems (in chronological
-	order Windows, Linux, Mac) and obtained Expert knowledge of each. My
-	daily OS is Mac and Linux. 
-
-\subsection{Data Management}
+At UZH / IEU, my work involves research support,
+	ranging from informal discussion on how workflows and scripts could
+	be improved in regards to reproducibility as well as execution speed
+	and data management aspects, designing and writing R packages to
+	simplify or automate workflows up to designing workflows which use
+	different computing platforms to the actual management of research
+	data to finally submitting it to Zenodo for long term preservation.
 
 
-In my role as an elected expert member of the Knowledge and Data Task Force
-	of IPBES, I was leading the development of the first IPBES data
-	management policy as well as, at the moment, leading the revision and
-	continuing review of the policy to include aspects not included in
-	traditional data management policies such as aspects specifically related
-	to indigenous and local knowledge. In addition, I am involved in the
-	development of educational material to facilitate the implementation of
-	the policy, drafting of a data management vision for IPBES, and other
-	activities concerning data management.
+\subsection{Reproducibility and Data Management}
 
-In my work in the Policy Network on Environment (PNE)  (Internet Governance
-	Forum) I successfully promoted the FAIR use of data (Findable,
-	Accessible, Interoperable and Reusable) as well as the CARE principles
-	(Collective benefits, Authority of control, Responsibility and Ethics) to
-	be included in the recommendations. Caused by the overall positive
-	acceptance of the report, it was decided to continue the work in a
-	Dynamic Coalition
-	(https://www.intgovforum.org/en/content/dynamic-coalitions) which I am
-	part in establishing it.
+I am particularly interested in the implementation of open science and
+	reproducibility principles, how these can be implemented and how
+	perceived hurdles can be overcome in individual groups (e.g. IPBES or
+	the research group I am in) and would like to extend this
+	understanding to a larger scale. Meta-research looking at different
+	academic disciplines and comparing these will yield insight in how
+	these hurdles can be overcome, which will lead to a more holistic view 
+	of open science and reproducibility and provide urgently needed 
+	approaches to increase the adoption of open science and reproducibility 
+	approaches in all disciplines.
+	
+Apart from the technological aspects of open science and reproducibility, 
+  I am interested in the policy level in how these principles can be codified
+  in Data Management Policy form in different organisations. The development
+  of the IPBES Data and Knowledge Management Policy provided fascinating insight
+  into the problems facing non-traditional science institutes in handling data 
+  and codify open science and reproducibility principles.
 
+\subsection{Software}
 
-\section{Research Projects}
+In my carrer, I obtained expertise in
 
-\begin{itemize}
-\item Development of an R package for running a simulation reproducible as
-	well as support for graphing of the results. 
-\item Development and maintenance of an automatic data preparation and
-	pre-processing pipeline to extract from regularly measured data and
-	movies (every second day) research ready  as well as preservation ready
-	data (open formats). The whole pipeline is implemented in a completely
-	reproducible way (open code, docker, makefiles).
-\item Development of a data management strategy for our research group and of
-	tools to facilitate the provision and improve the quality of metadata.
-	\item Predictions in Chaotic systems
-\item Management of the Literature Analysis (\textbf{IPPBES Global Assessment
-	Chapter 4}) and the generated data and the Excel Database in a
-	reproducible way for archiving as well as graphing of the results.
-\item Analyse measured vertical wind profiles to improve the performance of a
-	forest growth model (CASTANEA) in regards to energy balance 
-\item Modelling temporal and spatial dynamics of a range of different
-	different alien species, alien control agents and management strategies
-\item Optimising alien invasive plant management through modelling of
-	temporal and spatial modelling
-\item Modelling the role of seed dispersal in restoration and biological
-	invasion
+\begin{itemize}[leftmargin=1.1in]
+
+\item different programming languages (recently mainly R and bash,
+	earlier Delphi / Pascal and rudimentary work in Python and C),
+
+\item linking these through e.g. scripting into automated processing
+	and data work flows,
+
+\item setting up and usage of virtual computing platforms (most
+	recently S3IT Science Cloud) using docker, and virtual machines,
+
+\item using version control, mainly git via command line and through github,
+
+\item setting up and maintenance of small MySQL and sqlite databases as
+	well as SAMBA servers and trouble shooting of a wide variety of
+	software problems associated with the provision of these programs and
+	their maintenance. All setup steps are documented in documents to
+	make the re-creation of the instances / servers possible not only for
+	me but for others as well.
+
+\item all three major operating systems (Mac and Linux expert
+	user, Windows advanced user) and a wide range of programs,
+	dominantely but not exclusively open source (Rstudio, Emacs, MS
+	Office, Apple office products, GRASS, etc).
+
 \end{itemize}
+    
+
+    
+
+    
+% \section{Additional skills}
+
+% \subsection{Computer}
+
+% \textbf{Operating System} Expert Mac and Linux user; advanced Windows user
+
+% \textbf{Programming Languages} Extensive experience in programming in R,
+% 	Delphi / Pascal; basic experimence in \LaTeX{}; rudimentary experience 
+%     in Python and C
+
+% \textbf{Programs} Extensive experience in R (RStudio and Emacs), GRASS, bash; 
+%     Daily RStudio and BBEdit user;
+%     Zotero;
+% 	Apple office programs; MS Office programs; basic experience of QGIS and
+% 	Arc-GIS
 
 
-\section{Additional skills}
-
-\subsection{Computer}
-
-\textbf{Operating System} Expert Linux and Mac user; advanced Windows user
-
-\textbf{Programming Languages} Extensive experience in programming in R,
-	Delphi / Pascal; basic usage of C and \LaTeX{}
-
-\textbf{Programs} Extensive experience in R, GRASS, bash; Daily BBEdit user;
-	Apple office programs; MS Office programs; basic experience of QGIS and
-	Arc-GIS
-
-\subsection{Language}
-
-\textbf{German} native language
-
-\textbf{English} reading, writing and speaking fluent
-
-\textbf{French} reading, writing and speaking fair
 
 \section{Grants}
 
@@ -333,14 +497,16 @@ Deutscher Akademischer Austauschdienst (DAAD: German Academic Exchange
 
 \section{Publications}
 
-Data publication are not included. For an autogenerated list of the all
+Data publications are not included. For an autogenerated list of the all
 	publications see \url{https://orcid.org/0000-0002-7490-0066}
 
 \titlespacing{\subsection}
             {0.4\textwidth}% max width of the title(for wrap/leftmargin shape)
             {5pt}% vertical space before the title
             {15pt}% separation between title and text
-\subsection{Peer-reviewed Journals}
+            
+            
+\subsection{Articles \& Pre-Prints}
 
 \begin{btSect}[elsarticle-harv]{MP_PeerReviewed}
 \btPrintAll
